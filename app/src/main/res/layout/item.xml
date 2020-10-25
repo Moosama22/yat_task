@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    style="@style/Base.CardView"
+    app:cardCornerRadius="8dp"
+    android:elevation="3dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginTop="8dp"
+    >
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ant_man"
+        tools:ignore="ContentDescription"
+
+        />
+
+    <TextView
+        android:id="@+id/titletextview"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="133dp"
+        android:layout_height="56dp"
+        android:layout_gravity="right"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Ant Man"
+        android:textColor="@android:color/black"
+        tools:ignore="HardcodedText,RtlHardcoded"
+        />
+        <Button
+            android:id="@+id/favbtn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/ic_favorite_shadow_24"
+            android:layout_gravity="bottom|end"
+            android:layout_marginEnd="18dp"/>
+
+
+
+
+
+
+
+</androidx.cardview.widget.CardView>
